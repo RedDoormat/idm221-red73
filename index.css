@@ -1,0 +1,70 @@
+/* Style Sheet for portfolio website */
+
+html {
+    font-family: arvo, serif;
+    height: 100%
+    box-sizing;
+}
+
+body {
+    background-image: url(content/images/web-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img.Logo { /* Logo centering */
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 1rem auto;
+}
+
+img.self {
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Creates horizontal menu bar for social and nav */
+div.Menu {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    color: #ffffff
+}
+
+/*covers the short bio*/
+p {
+    margin: 1rem 1rem;
+    background-color: #ffffff;
+}
+
+/*Social menu bar placement*/
+footer {
+    padding: 1rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
