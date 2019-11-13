@@ -1,9 +1,12 @@
 /* Style Sheet for portfolio website */
 
+* { /*Helps with math of margin and padding*/
+    box-sizing: border-box;
+}
+
 html {
     font-family: arvo, serif;
     height: 100%
-    box-sizing;
 }
 
 body {
@@ -20,6 +23,9 @@ img.Logo { /* Logo centering */
 }
 
 img.self {
+    width: 50%;
+    padding: .5rem .25rem;
+    float: right;
     display: block;
     margin: 1rem auto;
 }
@@ -30,22 +36,25 @@ div.Menu {
 }
 
 ul {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
+    width: 100%;
 }
 
 li {
-    float: left;
+    display: inline-block;
+    text-align: center;
 }
 
 li a {
     display: block;
     color: #000000;
-    text-align: center;
-    padding: 1rem;
+    margin: .5rem 2rem;
+    padding: 0;
     text-decoration: none;
 }
 
@@ -56,15 +65,30 @@ li a:hover {
 
 /*covers the short bio*/
 p {
-    margin: 1rem 1rem;
+    margin: 1rem .5rem;
+    padding: 0 .5rem;
     background-color: #ffffff;
+}
+
+/*Art Content*/
+div.Art_Content {
+    clear: both;
+    background-color: #ffffff;
+    margin: .5rem .5rem;
 }
 
 /*Social menu bar placement*/
 footer {
-    padding: 1rem;
-    right: 0;
+    position: absolute;
+    margin: 1rem 0 0;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+li a.social { /*social media icons*/
+    display: block;
+    color: #000000;
+    margin: .5rem 3rem;
+    text-decoration: none;
 }
