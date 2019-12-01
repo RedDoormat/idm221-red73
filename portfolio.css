@@ -73,6 +73,7 @@ div.art {
     background-color: #ffffff;
     Margin: 2rem;
     text-align: center;
+    width: 90%;
 }
 
 img {
@@ -97,6 +98,6 @@ footer {
 li a.social { /*social media icons*/
     display: block;
     color: #000000;
-    margin: .5rem 3rem;
+    margin: .5rem 2rem;
     text-decoration: none;
 }

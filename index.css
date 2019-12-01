@@ -83,15 +83,17 @@ p {
     clear: both;
     background-color: #ffffff;
     margin: 0;
-    width: 100%;
+}
+
+img.proud {
+    width: 80%;
 }
 
 figure {
     float: left;
+    text-align: center;
     background-color: #ffffff;
-    border: #000000;
-    margin: 2rem .75rem;
-    
+    margin: 1rem 0;
 }
 figcaption {
     text-align: center;
@@ -110,6 +112,6 @@ footer {
 li a.social { /*social media icons*/
     display: block;
     color: #000000;
-    margin: .5rem 3rem;
+    margin: .5rem 2rem;
     text-decoration: none;
 }
