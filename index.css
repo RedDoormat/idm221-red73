@@ -11,13 +11,16 @@
 
 html {
     font-family: Arvo, serif;
-    height: 100%
+    height: 100%;
+    font-size: 100%;
 }
 
 body {
     background-image: url(content/images/web-background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    max-width: 28rem;
+    margin: auto;
 }
 
 img.Logo { /* Logo centering */
@@ -27,10 +30,15 @@ img.Logo { /* Logo centering */
     margin: 1rem auto;
 }
 
-img.self {
-    width: 50%;
-    padding: .5rem .25rem;
-    float: right;
+img.self { /*doodle of myself*/
+    border-style: dashed;
+    border-width: .2rem;
+    border-left-width: .625rem;
+    border-right-width: .625rem;
+    border-color: black;
+    background-color: #ffffff;
+    width: 60%;
+    text-align: center;
     display: block;
     margin: 1rem auto;
 }
@@ -62,7 +70,7 @@ li:hover {
 li a {
     display: block;
     color: #000000;
-    margin: .5rem 2rem;
+    margin: .75rem 6rem;
     padding: 0;
     text-decoration: none;
 }
@@ -73,38 +81,20 @@ li a:hover {
 
 /*covers the short bio*/
 p {
-    margin: 1rem .5rem;
-    padding: 0 .5rem;
+    margin: 1rem .75rem;
     background-color: #ffffff;
+}
+
+.introduction {
+    min-height: calc(100vh - 326px);
 }
 
 /*Art Content*/
-.Art_Content {
-    clear: both;
-    background-color: #ffffff;
-    margin: 0;
-}
 
-img.proud {
-    width: 80%;
-}
-
-figure {
-    float: left;
-    text-align: center;
-    background-color: #ffffff;
-    margin: 1rem 0;
-}
-figcaption {
-    text-align: center;
-    margin: .2rem;
-}
 
 /*Social menu bar placement*/
 footer {
-    position: absolute;
-    margin: 1rem 0 0;
-    left: 0;
+    clear: both;
     bottom: 0;
     width: 100%;
 }

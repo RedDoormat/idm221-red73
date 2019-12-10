@@ -11,13 +11,16 @@
 
 html {
     font-family: Arvo, serif;
-    height: 100%
+    height: 100%;
+    font-size: 100%;
 }
 
 body {
     background-image: url(content/images/web-background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    max-width: 28rem;
+    margin: auto;
 }
 
 img.Logo { /* Logo centering */
@@ -54,7 +57,7 @@ li:hover {
 li a {
     display: block;
     color: #000000;
-    margin: .5rem 2rem;
+    margin: .75rem 6rem;
     padding: 0;
     text-decoration: none;
 }
@@ -71,24 +74,23 @@ div.art {
     border-right-width: .625rem;
     border-color: black;
     background-color: #ffffff;
-    Margin: 2rem;
+    Margin: 2rem auto;
     text-align: center;
     width: 90%;
 }
 
 img {
-    margin: .5rem;
+    margin: .5rem auto;
 }
 
 figcaption span {
-    margin: .5rem;
+    margin: .5rem auto;
     padding: .25rem;
     background-color: #ffffff;
 }
 
 /*Social menu bar placement*/
 footer {
-    position: sticky;
     margin: 1rem 0 0;
     left: 0;
     bottom: 0;

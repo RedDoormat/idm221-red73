@@ -11,13 +11,41 @@
 
 html {
     font-family: Arvo, serif;
-    height: 100%
+    height: 100%;
+    font-size: 100%;
+}
+
+
+/*Contact Info*/
+main {
+    min-height: calc(100vh - 310px);
+}
+
+p {
+    margin: 1rem .75rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+img.me {
+    border-style: dashed;
+    border-width: .2rem;
+    border-left-width: .625rem;
+    border-right-width: .625rem;
+    border-color: black;
+    background-color: #ffffff;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
 }
 
 body {
     background-image: url(content/images/web-background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    max-width: 28rem;
+    margin: auto;
 }
 
 img.Logo { /* Logo centering */
@@ -54,7 +82,7 @@ li:hover {
 li a {
     display: block;
     color: #000000;
-    margin: .5rem 2rem;
+    margin: .75rem 6rem;
     padding: 0;
     text-decoration: none;
 }
@@ -65,9 +93,7 @@ li a:hover {
 
 /*Social menu bar placement*/
 footer {
-    position: absolute;
-    margin: 1rem 0 0;
-    left: 0;
+    clear: both;
     bottom: 0;
     width: 100%;
 }
@@ -75,6 +101,6 @@ footer {
 li a.social { /*social media icons*/
     display: block;
     color: #000000;
-    margin: .5rem 3rem;
+    margin: .5rem 2rem;
     text-decoration: none;
 }
