@@ -80,7 +80,7 @@ li a:hover {
 }
 
 /*covers the short bio*/
-p {
+p.bio {
     margin: 1rem .75rem;
     background-color: #ffffff;
 }
@@ -89,8 +89,43 @@ p {
     min-height: calc(100vh - 326px);
 }
 
-/*Art Content*/
+/*Art Pieces being displayed*/
+.art {
+    border-style: dashed;
+    border-width: .2rem;
+    border-left-width: .625rem;
+    border-right-width: .625rem;
+    border-color: black;
+    background-color: #ffffff;
+    Margin: 2rem auto;
+    text-align: center;
+    width: 90%;
+}
 
+img {
+    margin:0 auto;
+    width: 100%;
+}
+
+/*Contact page*/
+p.contact {
+    margin: 1rem .75rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+img.me {
+    border-style: dashed;
+    border-width: .2rem;
+    border-left-width: .625rem;
+    border-right-width: .625rem;
+    border-color: black;
+    background-color: #ffffff;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+}
 
 /*Social menu bar placement*/
 footer {

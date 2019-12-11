@@ -67,7 +67,7 @@ li a:hover {
 }
 
 /*Art Pieces being displayed*/
-div.art {
+.art {
     border-style: dashed;
     border-width: .2rem;
     border-left-width: .625rem;
